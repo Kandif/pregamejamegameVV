@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://b33gbaigmup6e"]
+[gd_scene load_steps=2 format=3 uid="uid://b33gbaigmup6e"]
+
+[ext_resource type="Texture2D" uid="uid://2vqmee27iqn2" path="res://grafiki/stich przypinka.png" id="1_n42r4"]
 
 [node name="Test" type="Node2D"]
 
@@ -13,3 +15,10 @@ offset_top = 239.0
 offset_right = 735.0
 offset_bottom = 363.0
 text = "OMG"
+
+[node name="StichPrzypinka" type="Sprite2D" parent="."]
+position = Vector2(1030, 457)
+scale = Vector2(0.413845, 0.413845)
+texture = ExtResource("1_n42r4")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
